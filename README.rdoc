@@ -1,3 +1,0 @@
-= A4nt
-
-This project rocks and uses MIT-LICENSE.
