@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email       = ["takayuki.1229@gmail.com"]
   s.homepage    = "https://github.com/ma2gedev/a4nt"
   s.summary     = "A4nt is a simple announcements plugin for Ruby on Rails."
-  s.description = "A4nt is a simple announcements plugin for Ruby on Rails."
+  s.description = "A4nt is a mountable engine based plugin for Ruby on Rails."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
