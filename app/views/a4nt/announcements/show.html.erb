@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @announcement.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @announcement.body %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%= @announcement.start_time %>
+</p>
+
+<p>
+  <b>End time:</b>
+  <%= @announcement.end_time %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @announcement.position %>
+</p>
+
+
+<%= link_to 'Edit', edit_announcement_path(@announcement) %> |
+<%= link_to 'Back', announcements_path %>
