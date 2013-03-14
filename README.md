@@ -4,7 +4,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'breadcrumble'
+    gem 'a4nt'
 
 And then execute:
 
