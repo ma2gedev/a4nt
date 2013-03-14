@@ -7,11 +7,11 @@ require "a4nt/version"
 Gem::Specification.new do |s|
   s.name        = "a4nt"
   s.version     = A4nt::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of A4nt."
-  s.description = "TODO: Description of A4nt."
+  s.authors     = ["ma2ge"]
+  s.email       = ["takayuki.1229@gmail.com"]
+  s.homepage    = "https://github.com/ma2gedev/a4nt"
+  s.summary     = "A4nt is a simple announcements plugin for Ruby on Rails."
+  s.description = "A4nt is a simple announcements plugin for Ruby on Rails."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
