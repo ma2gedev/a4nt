@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "A4nt is a simple announcements plugin for Ruby on Rails."
   s.description = "Rails Engine managing simple announcements. A4nt is mountable Engine for Ruby on Rails."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.12"
