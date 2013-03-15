@@ -15,5 +15,5 @@ And then execute:
 And it needs to be mounted in config/routes.rb file:
 
     mount A4nt::Engine, at: '/a4nt'
-    # /a4nt is a example
+    # /a4nt is just an example
 
