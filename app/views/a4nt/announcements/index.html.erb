@@ -7,6 +7,7 @@
     <th>Start time</th>
     <th>End time</th>
     <th>Position</th>
+    <th>Target</th>
     <th></th>
     <th></th>
     <th></th>
@@ -19,6 +20,7 @@
     <td><%= announcement.start_time %></td>
     <td><%= announcement.end_time %></td>
     <td><%= announcement.position %></td>
+    <td><%= announcement.target %></td>
     <td><%= link_to 'Show', announcement %></td>
     <td><%= link_to 'Edit', edit_announcement_path(announcement) %></td>
     <td><%= link_to 'Destroy', announcement, method: :delete, data: { confirm: 'Are you sure?' } %></td>
