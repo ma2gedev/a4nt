@@ -33,7 +33,7 @@
   </div>
   <div class="field">
     <%= f.label :target %><br />
-    <%= f.select :target, A4nt::Announcement::TARGETS %>
+    <%= f.select :target, A4nt::Announcement::Target.all %>
   </div>
   <div class="actions">
     <%= f.submit %>
