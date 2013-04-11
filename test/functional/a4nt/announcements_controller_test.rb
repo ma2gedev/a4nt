@@ -3,7 +3,7 @@ require 'test_helper'
 module A4nt
   class AnnouncementsControllerTest < ActionController::TestCase
     setup do
-      @announcement = announcements(:one)
+      @announcement = a4nt_announcements(:one)
     end
   
     test "should get index" do
