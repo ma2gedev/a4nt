@@ -43,7 +43,7 @@ module A4nt
     # POST /announcements
     # POST /announcements.json
     def create
-      @announcement = Announcement.new(params[:announcement])
+      @announcement = Announcement.new(announcement_params)
   
       respond_to do |format|
         if @announcement.save
@@ -62,7 +62,7 @@ module A4nt
       @announcement = Announcement.find(params[:id])
   
       respond_to do |format|
-        if @announcement.update_attributes(params[:announcement])
+        if @announcement.update_attributes(announcement_params)
           format.html { redirect_to @announcement, notice: 'Announcement was successfully updated.' }
           format.json { head :no_content }
         else
@@ -83,5 +83,11 @@ module A4nt
         format.json { head :no_content }
       end
     end
+
+    private
+
+      def announcement_params
+        params.require(:announcement).permit(:body, :end_time, :position, :start_time, :title, :target)
+      end
   end
 end
