@@ -19,8 +19,8 @@ For Rails 3
 And then execute:
 
     bundle install
-    rake a4nt:install:migrations
-    rake db:migrate
+    bundle exec rake a4nt:install:migrations
+    bundle exec rake db:migrate
 
 And it needs to be mounted in config/routes.rb file:
 
