@@ -1,5 +1,7 @@
 # A4nt
 
+[![Build Status](https://secure.travis-ci.org/ma2gedev/a4nt.png?branch=master)](http://travis-ci.org/ma2gedev/a4nt)
+
 ## Installation
 
 Add this line to your application's Gemfile:
