@@ -1,5 +1,6 @@
 # A4nt
 
+[![Gem Version](https://badge.fury.io/rb/a4nt.png)](http://badge.fury.io/rb/a4nt)
 [![Build Status](https://secure.travis-ci.org/ma2gedev/a4nt.png?branch=master)](http://travis-ci.org/ma2gedev/a4nt)
 
 ## Installation
