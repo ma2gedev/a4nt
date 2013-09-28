@@ -6,6 +6,14 @@ Add this line to your application's Gemfile:
 
     gem 'a4nt'
 
+For Rails 4
+
+    gem 'a4nt', '~> 2.0.0'
+
+For Rails 3
+
+    gem 'a4nt', '~> 1.0.0'
+
 And then execute:
 
     bundle install
