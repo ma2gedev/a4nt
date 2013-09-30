@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/ma2gedev/a4nt"
   s.summary     = "A4nt is a simple announcements plugin for Ruby on Rails."
   s.description = "Rails Engine managing simple announcements. A4nt is mountable Engine for Ruby on Rails."
+  s.license = 'MIT'
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
